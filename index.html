@@ -1,0 +1,423 @@
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Hackathon</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+  <script>
+    document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+  </script>
+
+  <style>
+  @font-face { font-family: sangsang; src: url(../SangSangBodyOTFM.otf); }
+
+  .slides > section * {
+    font-family: sangsang;
+  }
+
+  .highlight {
+    color: #8c4738;
+  }
+  </style>
+</head>
+
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section>
+      <h2>새로운 아이디어 발상법으로 주목 받는 해커톤</h2>
+      <div><br></div>
+      <h3>kh5325.kim@samsung.com</h3>
+      <h3>2014.01.07</h3>
+    </section>
+    <section>
+      <h2>Overview</h2>
+      <p>(Hit the 'o' key)</p>
+    </section>
+    <section>
+      <h2>해커톤(Hackathon)</h2>
+      <div><br></div>
+      <h3>Hackathon = Hack + Marathon</h3>
+        <ol>
+          <li><span style="text-align: center;">최대 이틀 내외의 짧은 시간 동안 아이디어를 기획에서 프로그래밍 과정을 거쳐 프로토타입 결과물을 만들어 내는 것</span>
+          <li><span style="text-align: center;">기획자, 디자이너, 프로그래머 등 5명 내외가 한 팀</span>
+        </ol>
+        <div><br></div>
+        <div style="text-align: left;">
+        [유사어]
+          <div>
+          <ul>
+            <li><span>Wikinomics</span>
+            <li><span>Brain-storming</span>
+            <li><span>XP Pair Programming</span>
+          </ul>
+          </div>
+        </div>
+    </section>
+    <section>
+      <section>
+        <h2>해커톤의 시작</h2>
+        <div><br></div>
+          <ul>
+            <li><span style="text-align: center;">페이스북 사내 행사 (6주마다)</span>
+            <li><span style="text-align: center;">개발과 관련 없는 재무 등의 부서도 참여</span>
+            <li><span style="text-align: center;">해커톤을 통해 'Like' 및 타임라인 탄생<br>
+            - 채택된 아이디어는 일주일 뒤 시제품, 한달 뒤 실제 서비스로 출시</span>
+            <li><span style="text-align: center;">마케팅 아이디어나 사내 복지정책도 해커톤으로 도입</span>
+            <li><span style="text-align: center;"><a href="http://itviewpoint.com/284081">2013년 동안 페이스북 해커톤을 통해 개발된 기능들 7가지</a></span>
+          </ul>
+      </section>
+      <section>
+        <h2>해커</h2>
+        <div><br></div>
+          <ul>
+            <li><span style="text-align: center;">뭔가 재빨리 만들거나, 불가능한 것에 도전하는 사람</span>
+            <li><span style="text-align: center;">세상에 긍정적 영향을 끼치고 싶어하는 이상주의자들</span>
+          </ul>
+          <div><br></div>
+        <h2>해커 중심적인 문화</h2>
+        <div><br></div>
+          <ul>
+            <li><span style="text-align: center;"><a href="http://sangminpark.wordpress.com/2011/08/23/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%89%EC%97%AC%EC%99%80-%EA%B3%B5%ED%8F%AC/">소프트웨어, 잉여와 공포</a></span>
+            <li><span style="text-align: center;"><a href="http://www.appleforum.com/mac-column/59538-yahoo-%EB%8A%94-%EC%96%B4%EC%A9%8C%EB%8B%A4-%EC%9D%B4-%EC%A7%80%EA%B2%BD%EC%9D%B4-%EB%90%98%EC%97%88%EC%9D%84%EA%B9%8C.html">해커 문화에서 벗어난 야후의 몰락</a></span>
+            <li>
+            <!--
+            <blockquote cite="">
+            -->
+            <span style="text-align: center;">"프로토타입과 시연이 언제나 스프레드쉬트보다 먼저 나온다" (<a href="http://www.appleforum.com/mac-column/60532-%EC%95%A0%ED%94%8C%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%8C%EC%95%84%EA%B0%80%EA%B3%A0-%EC%9E%88%EB%8A%94%EA%B0%80.html">애플은 어떻게 돌아가고 있는가</a>&nbsp;중)</span>
+            <li><span style="text-align: center;"><a href="http://blog.creation.net/533">HTML5 스펙 제정도 소프트웨어 개발 프로세스를 따름</a></span>
+            <li><span style="text-align: center;"><a href="http://splice.com">Splice</a> (<a href="http://www.youtube.com/watch?v=TlsqJgplupE">Write Songs Like Software</a>)</span>
+            <li><span style="text-align: center;"><a href="http://techit.kr/12925">구글의 문제 해결 사례</a></span>
+          </ul>
+      </section>
+      <section id="hacker-month">
+        <h2>페이스북</h2>
+        <div><br></div>
+          <div>대표적인 해커 문화의 회사</div>
+            <ul>
+              <li><a href="http://www.looah.com/article/view/738">The Hacker Way</a>
+                <ul>
+                  <li><span style="text-align: center;">Focus on Impact</span>
+                  <li><span style="text-align: center;">Move Fast</span>
+                  <li><span style="text-align: center;">Be Bold</span>
+                  <li><span style="text-align: center;">Be Open</span>
+                  <li><span style="text-align: center;">Build Social Value</span>
+                </ul>
+              <li>Hacker Month: 4주간 전혀 다른 영역으로 배치해 직원들의 유연성 및 지식 공유 확대
+              <li><a href="http://logonjava.blogspot.kr/2011/01/facebook-sw.html">Facebook의 개발 문화와 국내 SW 개발 문화</a>
+              <li><a href="http://abulaphiaa.wordpress.com/2011/12/23/designers-behind-facebook-timeline-5-keys-to-creating-a-ui-with-soul/">페이스북 타임라인의 탄생배경에 대한 디자이너들의 이야기</a>
+              <li><a href="http://dev.kthcorp.com/2011/10/19/facebook-platform-upgrade-and-profile-change-history/">페이스북 플랫폼 업그레이드에 따른 프로필 변경사</a>
+            </ul>
+      </section>
+    </section>
+    <section>
+      <h2>해커톤의 원리 - HACKA</h2>
+      <div><br></div>
+        <ul>
+          <li><span style="text-align: center;"><span class="highlight">H</span>idden needs - 숨은 니즈 찾기</span>
+          <li><span style="text-align: center;"><span class="highlight">A</span>ssociational think - 연관사고 하기</span>
+          <li><span style="text-align: center;"><span class="highlight">C</span>racking code - 고정관념 깨기</span>
+          <li><span style="text-align: center;"><span class="highlight">K</span>iller concept - 죽이는 주제 설정하기</span>
+          <li><span style="text-align: center;"><span class="highlight">A</span>ction now - 바로 실행하기</span>
+        </ul>
+    </section>
+    <section>
+      <section>
+        <h2>해커톤의 현황</h2>
+        <div><br></div>
+        <ul>
+          <li>사이트
+            <ul>
+              <li><a href="http://onoffmix.com/search?s=%ED%95%B4%EC%BB%A4%ED%86%A4">'온오프믹스'</a>, <a href="https://www.hackerleague.org/">'Hacker League'</a>
+                <ul>
+                  <li><a href="http://onoffmix.com/event/19098">2013 제1회 K-Hackathon 결선</a>
+                  <li><a href="http://onoffmix.com/event/21518">제 1회 인하 해커톤 - Inha Growth Hacking Party</a> - 개발에 필요한 도구(모니터, 노트북), 세면도구들은 개인지참!
+                </ul>
+            </ul>
+          <li>국내외 현황
+            <ul>
+              <li>실리콘밸리
+                <ul>
+                  <li>트위터, 에버노트</li>
+                  <li>인텔 등</li>
+                </ul>
+              <li>국내
+                <ul>
+                  <li>KT 에코노베이션, SK Planet</li>
+                  <li>Daum 등</li>
+                </ul>
+              <li>정부의 공공데이터 개방
+                <ul>
+                  <li>API Mashup
+                  <li>Open Data + Cloud Infra + Mentoring
+                </ul>
+            </ul>
+        </ul>
+      </section>
+      <section id="onoff">
+        <h2>온라인과 오프라인의 결합</h2>
+        <div><br></div>
+        <ul>
+          <li>해커톤을 위해 온라인 작업도 가능하지만 오프라인 협업이 효율적
+          <li>모임 개설, 장소 제공, 프로모션, 예약대행 등을 해 주는 '온오프믹스' 같은 오프라인 중개가 필요 -> <a href="http://www.venturesquare.net/37890">오프라인 모임을 위한 온라인 공유 플랫폼</a>
+            <ul>
+              <li><a href="http://www.toz.co.kr/index.htm">모임센터 토즈</a>
+              <li><a href="http://www.zipbob.net/">소셜다이닝 집밥</a> (<a href="http://nanumnow.com/1412">공유경제</a>)
+            </ul>
+      </section>
+    </section>
+    <section>
+      <section>
+        <h2>비IT 업계</h2>
+        <div><br></div>
+        <ul>
+          <li>자동차제조업 - 폐쇄 R&amp;D 문화로부터의 변화
+            <ul>
+              <li>자사 API 공개
+              <li>혼다 "Fueler" - 운전 중 브레이크의 동작을 분석해 연비 계산, 게임적인 요소 가미(Gamification)
+              <li>Pebble 등 웨어러블 기기 연동
+            </ul>
+        </ul>
+      </section>
+      <section>
+        <h2>비IT 업계 (w/ Big Data)</h2>
+        <div><br></div>
+        <ul>
+          <li><a href="http://estima.wordpress.com/2013/01/02/waze/">Social Navigation Waze</a>
+          <li><span style="text-decoration: line-through;"><a href="http://interpiler.com/2013/07/31/%EB%B0%94%EB%8B%A4-%EC%9C%84%EC%9D%98-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/">Smart Ship</a></span>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <section>
+        <h2>시사점</h2>
+        <div><br></div>
+        <ul>
+          <li>해커톤의 순기능
+            <ul>
+              <li>창의적인 아이디어를 얻는 발상법
+              <li>인맥 형성
+              <li>창업 희망자들의 기회 통로
+              <li>자사 API 플랫폼 홍보 및 개발자 생태계 형성
+            </ul>
+          <div><br></div>
+          <li>해커톤의 한계
+            <ul>
+              <li>프로토타입 이후 제품화 단계로 가는 어려움
+              <li>'예산 털기'나 '기업 홍보' 도구로 전락
+              <li>독립적인 수익모델 발굴 및 체계적인 인큐베이팅 시스템 필요
+            </ul>
+        </ul>
+      </section>
+      <section>
+        <h2>인큐베이팅</h2>
+        <div><br></div>
+          <div><a href="http://news.mt.co.kr/newsPrint.html?no=2012060215191517213&amp;type=1&amp;gubn=undefined">저렴하게 빠르게 실패하고, 성공확률은 높인다</a></div>
+            <ul>
+              <li><a href="http://500.co/">500 Startups</a>, <a href="http://ycombinator.com/">Y Combinator</a>
+              <li>멘토들의 힘 - "빨리 실행을 하란 말이야"
+                <ul>
+                  <li>자신의 네트워크 연결, 노하우 전수
+                  <li>데모데이 리허설까지 관여
+                </ul>
+              <li>빈번한 팀간 스와핑(swapping)
+            </ul>
+        <div><br></div>
+        <h2>Crowd Funding/Sourcing</h2>
+          <div>개발 능력이 없는 사용자의 앱 아이디어를 현실화 = 해커톤의 결과물을 수익모델/상품으로 현실화</div>
+        <div><br></div>
+            <ul>
+              <li><a href="http://www.kickstarter.com/">KickStarter</a>
+              <li><a href="http://www.venturesquare.net/1544">기획부터 펀딩까지 한번에 끝내는 앱 제작 플랫폼 SellAnApp</a>
+            </ul>
+      </section>
+    </section>
+    <section data-background="#007777" data-background-transition="slide">
+      <h2>해커톤의 활용 아이디어<br>(Aligning with S-Core)</h2>
+        <div><br></div>
+          <ul>
+            <li class="fragment">조직 문화로서의 해커톤 활용
+            <li class="fragment">해커톤 지원 플랫폼으로서의 Webida
+          </ul>
+    </section>
+    <section data-transition="zoom" data-background="#4d7e65" data-background-transition="slide">
+      <h2>조직 문화로서의 해커톤 활용</h2>
+        <div><br></div>
+          <ul>
+            <li>사내 아이디어 공모전 대체
+              <ul>
+                <li>아이디어의 발굴 - 회사 성장전략으로의 발전 및 개인 성취감
+                <li>다른 실원들끼리의 팀 구성 장려 - 실교류 확대 및 기술셋 접목
+                <li><a href="#/hacker-month">"S-Core Hacker Month"</a>
+                  <ul>
+                    <li>기본적으로 자유 주제
+                    <li>자신이 연관되지 않은 사내 제품에 대한 hack 장려 - 새로운 관점의 유입 및 업무 전환의 기회
+                  </ul>
+              </ul>
+            <div><br></div>
+            <li>SW 개발 회사의 역동성, 창의성, 공유의 정신 그리고 재미
+              <ul>
+                <li><span style="text-decoration: line-through;"><a href="http://www.google.co.kr/landing/saturi/">구글 사투리 번역 서비스</a></span>
+                <li>티맥스에서의 hack - 주소록 검색 ("그때가 좋았지")
+                  <div>TIMS 검색 > 엑셀 문서 배포 > PERL 스크립트 배포 > MSN Messenger Bot</div>
+              </ul>
+          </ul>
+    </section>
+    <section data-transition="zoom" data-background="#8c4738" data-background-transition="slide">
+      <h2>Webida와 해커톤 (1)</h2>
+        <div><br></div>
+          <ul>
+            <li>Collaboration Support - 온라인 협업 환경 제공
+              <ul>
+                <li><a href="http://www.visualstudio.com/en-us/products/visual-studio-online-overview-vs">Visual Studio Online</a>
+                  <ul>
+                    <li>원격 빌드/테스트 지원, Scrum 기반 온라인 협업 기능 지원
+                  </ul>
+                <li><a href="http://demo.yobi.io/">협업 SW개발 플랫폼 Yobi</a>
+                  <ul>
+                    <li>코드 관리 및 리뷰, 이슈 관리
+                  </ul>
+                <li><a href="http://annotree.com/">AnnoTree</a>
+                  <ul>
+                    <li><a href="http://thenextweb.com/insider/2013/10/19/6-startups-graduating-newme-accelerator-fall-2013-class/">NewMe Accelerator 창업스쿨 서비스</a>
+                    <li>디자이너와 개발자가 개발 결과물에 대해 annotation 기반으로 소통
+                  </ul>
+                <li><a href="https://www.mybalsamiq.com/">myBalsamiq</a>
+                  <ul>
+                    <li>Remote and collaborative UX Design - <a href="https://score.mybalsamiq.com/projects/tizen21/SecureProfiles">S-Core balsamiq</a>
+                  </ul>
+                <li>WebRTC can share file, screen and camera
+                <li><span style="text-decoration: line-through;"><a href="http://helloworld.naver.com/helloworld/592561">Design Studio</a></span>
+              </ul>
+          </ul>
+    </section>
+    <section data-transition="zoom" data-background="#8c4738" data-background-transition="slide">
+      <h2>Webida와 해커톤 (2)</h2>
+        <div><br></div>
+          <ul>
+            <li>API Platform & Mashup Support
+              <ul>
+                <li><a href="http://bcho.tistory.com/808">API 플랫폼에 대한 이해</a>
+                  <ul>
+                    <li><a href="https://apigee.com/">apigee</a>, <a href="http://www.mashery.com/">Mashery</a> ('Hacker League'와 통합)
+                    <li>API 개발 후 클라우드의 API 플랫폼을 통해서 API 서비스를 하면 이 플랫폼이 API 워크플로우 및 모니터링 기능 제공
+                  </ul>
+                <li>REST API 테스트 호출
+                  <ul>
+                    <li><a href="http://petstore.swagger.wordnik.com/">Swagger</a>
+                    <li><a href="https://dashboard.stackmob.com/data/console">StackMob</a>
+                  </ul>
+                <li>Mashup을 쉽게 저작하는 환경 제공
+                  <ul>
+                    <li><a href="https://zapier.com/">Zapier</a>
+                    <li><a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a>
+                  </ul>
+              </ul>
+          </ul>
+    </section>
+    <section data-transition="zoom" data-background="#8c4738" data-background-transition="slide">
+      <h2>Webida와 해커톤 (3)</h2>
+        <div><br></div>
+          <ul>
+            <li><a href="#/onoff">Brokerage</a>
+              <ul>
+                <li>개발자 이력 및 평판 시스템 제공
+                  <ul>
+                    <li><a href="http://stackoverflow.com/users">stackoverflow.com reputation</a>
+                    <li><a href="http://resume.github.io/">My GitHub resumes</a>
+                  </ul>
+                <li>경력 및 인맥 관리
+                <li>전문가 서비스 - 다른 도메인의 전문가 소싱
+                  <ul>
+                    <li>"누가 내 앱을 디자인해 주지?"
+                    <li>"누가 내 앱을 번역해 주지?" - <a href="http://thenextweb.com/google/2013/11/11/google-launches-app-translation-service-lets-android-developers-buy-translations-pre-qualified-vendors/">Google의 번역 서비스</a>
+                  </ul>
+                <li>멘토링 지원 - 앱센터운동본부 연결?
+                <li><a href="http://www.threadless.com/">Threadless</a>의 예 (Hit the 's' key)
+              </ul>
+          </ul>
+      <aside class="notes">
+(강훈 팀장님 메일 "Threadless 를 아시나요?" 중)
+<blockquote>
+<p>
+Threadless 를 아시나요?
+</p>
+
+<p>
+Wikipedia에 의하면 (첫 줄 이후는 번역했습니다 ^^)
+Threadless is an online community of artists and an e-commerce website based in Chicago, Illinois. In 2000, co-founders Jake Nickell and Jacob DeHart started the company with $1,000 of their own money.
+Threaless에서는 모든 사람이 자신만의 티셔츠 디자인을 공유할 수 있고, 모든 사람이 자신이 원하는 디자인을 선택할 수 있습니다.
+매주 대략 1000개의 디자인이 제출되고, 투표에 부쳐집니다.
+이 중 최다 득표한 디자인 10여개를 직원들이 최종 선정하여 한정판 티셔츠가 제작/판매 됩니다.
+디자인이 뽑히면 무려 2500달러를 상금으로 받게 되죠 (2000달러는 현금으로 500달러는 threadless 상품권으로요)
+게다가 디자인이 reprint 될 때마다 500달러를 현금으로 받습니다.
+대신 Threadless에서는 디자인에 대한 소유권을 가지게 됩니다.
+</p>
+
+<p>
+사업 모델을 보면서 (이 회사는 오래된 회사이긴 하지만) 최근의 SNS 관련 패러다임 변화들과 비슷한 느낌을 받았습니다.<br>
+1. 커뮤니티를 통한 디자인 공모 및 선정 > 인터넷 가상 공간을 통한 "소통"<br>
+2. 디자인에 대한 소유권 취득 > 무형 자산으로의 자산 형태 변화<br>
+3. 중개인 역할 > 개개인의 창의성을 제조 공장과 연결시켜 판매해 주고 그 중간 마진을 가져감
+</p>
+
+<p>
+이것을 보고 저는 응용할 수 있는 아이디어가 생각이 났는데요.
+
+저희 ADP 에서도 비슷한 것을 할 수 있지 않을까요?<br>
+1. 커뮤니티를 통해서 App 아이디어 공모 및 선정<br>
+2. 저희 인력이 소수 개발하거나 또는 외주 업체를 통해서 App 구현<br>
+3. App 개발자 뿐만이 아니라 사용자들을 포탈로 유입<br>
+4. App 의 트렌드 및 SDK 요구사항 수집<br>
+5. 기존 ADP 수익 모델과 잘 연관시키거나 또는 새로운 수익 모델 창출
+</p>
+</blockquote>
+      </aside>
+    </section>
+    <section>
+        <h1>THE END</h1>
+        <h3>Make better world by hacking!</h3>
+        <h3>BY kh5325.kim@samsung.com</h3>
+    </section>
+  </div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+    });
+
+</script>
+</body>
+</html>
